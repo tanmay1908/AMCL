@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find my_robot)/launch/world.launch" />
+<include file="$(find my_robot)/launch/amcl.launch" />
+
+<node pkg="rviz" type="rviz" name="rviz_map" args="-d /home/workspace/catkin_ws/src/my_robot/config/rviz_config.rviz" />
+
+
+</launch>
