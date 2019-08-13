@@ -12,14 +12,15 @@
 		<param name="initial_pose_y" value="0.943349"/>
 		<param name="initial_pose_a" value="3.141"/>
 		
-		<param name="min_particles" value="1000"/>
-	        <param name="max_particles" value="7000"/>
-		<param name="update_min_d" value="0.5"/>
+		<param name="min_particles" value="80"/>
+	        <param name="max_particles" value="1000"/>
+		<param name="update_min_d" value="0.1"/>
 		<!--<param name="update_min_a" value="3.141"/>-->
-		<param name="laser_min_range" value="-1.0"/>
-	        <param name="laser_max_beams" value="60"/>
-		<param name="laser_z_hit" value="1.0"/>
-		<param name="laser_z_rand" value="0.05"/>
+		<!--<param name="laser_min_range" value="-1.0"/> -->
+		<param name="laser_max_range" value="-1.0" />       
+	 	<param name="laser_max_beams" value="100"/>
+		<param name="laser_z_hit" value="0.95"/> 
+		<param name="laser_z_rand" value="0.06"/>
 	
 	</node>-
 
